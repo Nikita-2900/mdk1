@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Лучший сайт</title>
     <style>
         * {
             padding: 0;
@@ -23,11 +23,11 @@
         }
 
         header {
-            height: 100px;
+            height: 9%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: aqua;
+            background-color: rgb(54, 54, 54);
             padding: 0 20px;
         }
 
@@ -38,46 +38,84 @@
         }
 
         .logo229 {
-            width: 100px;
-            height: 100px;
+            width: 20px;
+            height: 20px;
             border-radius: 50%;
-            background-color: rgb(138, 130, 254);
+            background-color: rgb(255, 255, 255);
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
 
         main {
-            flex-grow: 1;
             display: flex;
+            flex-grow: 1;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 20px;
+
         }
 
         .center-image {
-            width: 300px;
+            width: 200px;
             height: auto;
             border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            margin: 10px;
+            border-radius: 50%;
         }
 
         .center-text {
             font-size: 24px;
             font-weight: bold;
             color: #333;
+            margin-bottom: 10px;
+        }
+        footer {
+            display: flex;
+            background-color: rgb(0, 0, 0);
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            padding: 0 10px;
+        }
+        .footer-text {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            justify-content: left;
+            margin: 10px;
+            color: #ffffff;
+        }
+        h2 {
+            color: #ffffff;
+        }
+        .footer-image {
+            width: 70px;
+            height: 70px;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="header-left">
-            <h1>LOGO</h1>
+            <h2>LOGO</h2>
             <div class="logo229"></div>
         </div>
-        <button>Войти</button>
+        <div class="buttons">
+            <button>Вход</button>
+            <button>Регистрация</button>
+        </div>
     </header>
     <main>
-        <img src="i.webp" class="center-image">
-        <p class="center-text">сарсинов кривцов</p>
+        <img src="priora.jpg" class="center-image">
+        <p class="center-text">Сарсинов Кривцов</p>
     </main>
+    <footer>
+        <div class="footer-text">
+            <p>Контакты: https://github.com/Nikita-2900</p>
+            <p>Сарсинов Кривцов</p>
+            <p>Не надо шутить с тазами</p>
+        </div>
+        <img src="4k.jpg" class="footer-image">
+    </footer>
 </body>
 </html>
